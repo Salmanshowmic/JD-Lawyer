@@ -1,0 +1,714 @@
+@font-face{
+	font-family: poppins;
+	src:url(fonts/Poppins-Regular.ttf);
+}
+@font-face{
+	font-family: poppins;
+	src:url(fonts/Poppins-Regular.eot);
+}
+
+@font-face{
+	font-family: roboto;
+	src:url(fonts/Roboto-Bold.ttf);
+}
+@font-face{
+	font-family: roboto;
+	src:url(fonts/Roboto-Bold.eot);
+}
+
+
+html,body{
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+.margin-t80{
+	margin-top: 80px;
+}
+
+.search-box{
+	display: block;
+	border: 2px solid #f8d92b;
+	border-radius: 15px;
+}
+
+.magnifing-glass:hover{
+	cursor: pointer;
+}
+.search{
+	display: none;
+}
+.magnifing-glass:hover .search{
+	display: block;
+	
+}
+.nav-item{
+	padding: 20px;
+}
+.nav-item img{
+	padding-top: 10px;
+}
+.nav-link{
+	font-size: 16pt;
+	
+	font-family: poppins;
+	color: #f8d92b !important;
+}
+.nav-link:hover{
+	color: black !important;
+}
+
+.verticle-line{
+	position: absolute;
+	top: 30%;
+}
+
+.jd-face{
+	transform: translate(0px,-40px);
+}
+
+.name-text{
+	font-size: 50pt;
+	font-family: poppins;
+	font-weight: bold;
+	margin-top: 170px;
+	
+
+}
+.name-text-paragraph{
+	font-size: 18pt;
+	font-family: poppins;
+	margin-top: 80px;
+}
+
+.btn-primary{
+	background: #f8d92b; 
+	border:none;
+	border-radius: 20px;
+	margin-top: 80px;
+	width: 250px;
+	height: 60px;
+	font-size: 20pt;
+	font-family: poppins;
+}
+.btn-primary:hover{
+	cursor: pointer;
+	background: black;
+	color: #f8d92b;
+	border: 2px solid #f8d92b;
+}
+
+.btn-warning{
+	color: white;
+	background: #f8d92b;
+	border: none;
+	width: 60px;
+	height: 60px;
+	border-radius: 50px;
+	margin-top: 80px;
+	margin-bottom: 80px;
+}
+
+.btn-warning:hover{
+	cursor: pointer;
+	background: black;
+	color: #f8d92b;
+}
+
+
+/*second section*/
+
+
+.about{
+	font-size: 50pt;
+	font-family: poppins;
+	font-weight: bold;
+	margin-top: 160px;
+}
+.about-text{
+	font-size: 18pt;
+	font-family: poppins;
+}
+.btn-primary1{
+	margin-bottom: 160px;
+}
+
+/*practice section*/
+.help-text{
+	margin-top: 80px;
+	color: #f8d92b;
+	font-family: poppins;
+	font-weight: bold;
+	font-size: 20pt; 
+}
+
+.practice-header{
+	font-size: 40pt;
+	font-weight: bold;
+	font-family: poppins;
+	font-size: 25pt;
+	
+}
+.rectangle-yellow{
+	transform: translate(0px, -60px);
+}
+.practice-image-name{
+	font-size: 15pt;
+	font-family: poppins;
+	font-weight: bold;
+	padding-left: 30px;
+}
+.name1{
+	
+}
+.practice-text{
+	font-size: 16pt;
+	font-family: poppins;
+}
+.practice-button{
+	margin-bottom: 80px;
+}
+
+/*welcome section*/
+
+.welcome-header{
+	font-size: 40pt;
+	font-weight: bold;
+	font-family: poppins;
+	font-size: 25pt;
+	margin-top: 160px;
+}
+
+.welcome-inner-header{
+
+	font-size: 20pt;
+	font-weight: 600;
+	font-family: poppins;
+}
+.welcome-text{
+	margin-top: 40px;
+	margin-bottom: 40px;
+	font-size: 16pt;
+	font-family: poppins;
+}
+
+.welcome-button{
+	margin-top: 0px;
+}
+.welcome-image{
+	width: 100%;
+}
+
+.contact-form{
+	margin-top: 40px;
+}
+.form-item{
+	margin-top: 30px;
+	border: none;
+	border-bottom: 2px solid #252525;
+	width: 100%;
+}
+.send-button{
+	margin-top: 40px;
+	width: 150px;
+	height: 50px;
+	border-radius: 50px;
+	margin-bottom: 160px;
+}
+
+.civil-law-image{
+	width: auto;
+	padding-top: 20%;
+}
+
+
+/*footer section*/
+
+.footer-header{
+	color: white;
+	font-family: poppins;
+}
+.footer-text{
+	margin-top: 40px;
+	color: white;
+	font-family: poppins;
+	font-size: 10pt;
+
+}
+
+.footer-input{
+	margin-top: 40px;
+	width: 80%;
+	border-radius: 20px;
+	border-style: none;
+}
+
+.footer-button{
+	width: 150px;
+	height: 30px;
+	font-size: 12pt;
+	margin-top: 20px;
+}
+
+.footer-1{
+	margin-bottom: 160px;
+}
+
+.hr-line{
+	width: 70%;
+	border: 1px solid white;
+}
+.fa-facebook{
+	color: #f1f2f3;
+}
+.fa-twitter{
+	color: #f1f2f3;
+}
+.fa-linkedin{
+	color: #f1f2f3;
+}
+.fa-instagram{
+	color: #f1f2f3;
+}
+.fa-facebook, .fa-twitter, .fa-linkedin, .fa-instagram{
+	font-size: 30px;
+	margin: 10px;
+}
+.copy-right{
+	height: 60px;
+	background: white;
+	margin-top: 50px;
+}
+.copy-right-text{
+	padding-top: 20px;
+}
+/*footer end*/
+
+
+
+
+
+/*media Queries*/
+
+@media(max-width: 1690px){
+.nav-item{
+	padding: 10px;
+}
+
+.nav-link{
+	font-size: 15pt;
+}
+
+.verticle-line{
+	top: 20%;
+}
+
+.name-text{
+	font-size: 40pt;
+	
+	
+
+}
+.name-text-paragraph{
+	font-size: 16pt;
+	
+}
+/*second section*/
+.about{
+	font-size: 40pt;
+	
+}
+.about-text{
+	font-size: 16pt;
+	
+}
+.btn-primary1{
+	margin-bottom: 160px;
+}
+
+/*practice section*/
+.help-text{
+	font-size: 18pt; 
+}
+
+.practice-header{
+	font-size: 35pt;
+}	
+
+
+.practice-image-name{
+	font-size: 16pt;
+	
+}
+
+/*welcome section*/
+.welcome-header{
+	font-size: 35pt;
+	margin-top: 60px;
+}
+
+.welcome-inner-header{
+	font-size: 20pt;
+	
+}
+.welcome-button{
+	margin-bottom: 40px;
+}
+
+
+
+
+}
+@media(max-width: 1440px){
+.nav-item{
+	padding: 5px;
+}
+.name-text{
+	font-size: 35pt;
+}
+
+.name-text-paragraph{
+	font-size: 15pt;
+	
+}
+/*second section*/
+.about{
+	font-size: 35pt;
+	
+}
+.about-text{
+	font-size: 15pt;
+	
+}
+/*practice section*/
+.help-text{
+	font-size: 17pt; 
+}
+
+.practice-header{
+	font-size: 30pt;
+}	
+
+
+.practice-image-name{
+	font-size: 15pt;
+	
+}
+.practice-inner-image{
+	transform: translate(25px, -150px);
+}
+/*welcome section*/
+.welcome-header{
+	font-size: 30pt;
+	margin-top: 100px;
+}
+
+.welcome-inner-header{
+	margin-top: 40px;
+	font-size: 18pt;
+	
+}
+.welcome-text{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	font-size: 15pt;
+}
+
+.welcome-button{
+	margin-top: 0px;
+}
+.welcome-image{
+	height: 100%;
+}
+
+.civil-law-image{
+	width: 100%;
+
+}
+
+
+
+
+}
+
+@media(max-width: 1200px){
+.nav-item{
+	padding: 0;
+}
+.nav-item img{
+	padding-top: 5px;
+}
+.nav-link{
+	font-size: 14pt;
+	
+}
+
+.verticle-line{
+	
+	top: 20%;
+}
+
+
+.name-text{
+	font-size: 30pt;
+	margin-top: 100px;
+	
+
+}
+.name-text-paragraph{
+	font-size: 15pt;
+	margin-top: 40px;
+}
+
+.btn-primary{
+	background: #f8d92b; 
+	margin-top: 40px;
+	width: 200px;
+	font-size: 15pt;
+	
+}
+
+
+.btn-warning{
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+/*second section*/
+.about{
+	font-size: 30pt;
+	margin-top: 100px;
+}
+.about-text{
+	margin-top: 40px;
+	font-size: 15pt;
+	font-family: poppins;
+}
+.btn-primary1{
+	margin-bottom: 100px;
+}
+
+/*practice section*/
+.help-text{
+	margin-top: 40px;
+	font-size: 18pt; 
+}
+
+.practice-header{
+	font-size: 25pt;
+	
+}
+.rectangle-black{
+
+}
+.practice-inner-image{
+	width: 60%;
+	transform: none;
+	position: absolute;
+	top: 10%;
+	left: 20%;
+}
+.rectangle-yellow{
+	transform: translate(0px, -60px);
+}
+.practice-image-name{
+	font-size: 8pt;
+	padding-left: 20px;
+}
+
+.practice-text{
+	font-size: 15pt;
+	
+}
+.practice-button{
+	margin-bottom: 80px;
+}
+/*welcome section*/
+.welcome-header{
+	margin-top: 50px;
+	font-size: 25pt;
+	
+}
+
+.welcome-inner-header{
+	margin-top: 40px;
+	font-size: 16pt;
+	
+}
+.welcome-text{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	font-size: 13pt;
+}
+
+.welcome-button{
+	margin-top: 0px;
+}
+
+.civil-law-image{
+	
+	
+
+}
+
+
+
+}
+@media(max-width: 992px){
+.nav-item img{
+	padding-top: 0;
+}
+.nav-link{
+	font-size: 10pt;
+}
+
+.name-text{
+	font-size: 25pt;
+	margin-top: 50px;
+	
+
+}
+.name-text-paragraph{
+	font-size: 12pt;
+	margin-top: 30px;
+}
+
+.btn-primary{
+	background: #f8d92b; 
+	margin-top: 40px;
+	width: 150px;
+	font-size: 12pt;
+	
+}
+
+.btn-warning{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+/*second section*/
+.about{
+	font-size: 25pt;
+	margin-top: 50px;
+}
+.about-text{
+	margin-top: 30px;
+	font-size: 10pt;
+	
+}
+.btn-primary1{
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+/*practice section*/
+.help-text{
+	margin-top: 40px;
+	font-size: 15pt; 
+}
+
+.practice-header{
+	
+	font-size: 20pt;
+	
+}
+
+
+.practice-image-name{
+	font-size: 8pt;
+	padding-left: 10px;
+}
+
+.practice-text{
+	font-size: 12pt;
+	font-family: poppins;
+}
+
+/*welcome section*/
+
+.welcome-header{
+	font-size: 20pt;
+	margin-top: 30px;
+}
+
+.welcome-inner-header{
+	font-size: 15pt;
+	
+}
+.welcome-text{
+	margin-top:20px;
+	margin-bottom: 20px;
+	font-size: 10pt;
+}
+
+.welcome-button{
+	margin-top: 0px;
+}
+
+
+.contact-form{
+	margin-top: 30px;
+}
+
+.send-button{
+	margin-top: 30px;
+	width: 150px;
+	height: 50px;
+	border-radius: 50px;
+	margin-bottom: 40px;
+}
+
+.civil-law-image{
+	
+
+}
+
+}
+
+@media(max-width: 768px){
+
+.civil-law-image{
+	
+}
+.practice-inner-image{
+	width: 50%;
+	position: absolute;
+	top: 80%;
+	left: 10%;
+}
+
+.practice-image-name{
+	padding-left: 40px;
+	
+}
+.name1{
+
+	transform: translate(0px, 0px);
+}
+}
+
+@media(max-width: 576px){
+	.rectangle-black{
+		text-align: center;
+		margin: 0;
+	}
+	.rectangle-yellow{
+		text-align: center;
+		transform: none;
+	}
+
+
+.practice-inner-image{
+	width: auto;
+	position: absolute;
+	left: 37%;
+	top: 63%;
+}
+
+.practice-image-name{
+	font-size: 10pt;
+	padding-left: 0;
+}
+.name1{
+	
+	transform: translate(0px, 0px);
+}
+}
